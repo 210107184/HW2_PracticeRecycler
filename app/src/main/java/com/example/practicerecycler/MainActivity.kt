@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
         binding.recyclerView.setHasFixedSize(true)
         binding.recyclerView.adapter = foodAdapter
     }
-v
+
     private fun foodListItems() {
         foodList.add(Model(R.drawable.sushi1, "ALASKA ROLL"))
         foodList.add(Model(R.drawable.sushi2, "DRAGON ROLL"))
